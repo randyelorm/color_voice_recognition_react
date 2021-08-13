@@ -31,8 +31,9 @@ const Dictaphone = () => {
       <h2>You said: {transcript}</h2>
 
      
-     <h3>Examples:</h3> 
+    
         <div className = "examples">
+        <h3>Examples:</h3> 
               <button>Red</button>
               <button>Blue</button>
               <button>Yellow</button>

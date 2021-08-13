@@ -30,16 +30,7 @@ const Dictaphone = () => {
       <button onClick={resetTranscript} className = "reset-btn">Reset Page <i class="fas fa-redo"></i></button> <br />
       <h2>You said: {transcript}</h2>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+     
      <h3>Examples:</h3> 
         <div className = "examples">
               <button>Red</button>

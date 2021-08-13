@@ -1,0 +1,144 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 1rem;
+}
+
+.mydiv {
+    height: 100vh;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 { 
+    text-align: center;
+}
+
+
+.start_nd_stop_buttons {
+    margin: 1rem;
+    display:flex;
+
+}
+
+
+.start_nd_stop_buttons button {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    color:white;
+  
+ 
+
+}
+
+.start_nd_stop_buttons button:nth-of-type(1) {
+    background-color: #1DA1f2;
+ 
+    border-radius: 30px;
+}
+
+.start_nd_stop_buttons button:nth-of-type(2) {
+    background-color: #5B5B5B;
+
+    border-radius: 30px;
+}
+
+.reset-btn {
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+h2 {
+    margin: 0
+}
+
+.examples button:nth-of-type(1) {
+        background-color: red;
+        border: none;
+}
+
+.examples button:nth-of-type(2) {
+    background-color: blue;
+    border: none;
+}
+
+.examples button:nth-of-type(3) {
+    background-color: yellow;
+    border: none;
+}
+
+.examples button:nth-of-type(4) {
+    background-color: black;
+    border: none;
+    color:white;
+}
+
+.examples button:nth-of-type(5) {
+    background-color: orange;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(6) {
+    background-color: khaki;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(7) {
+    background-color:cyan;
+    border: none;
+    color:black;
+}
+
+
+.examples button:nth-of-type(8) {
+    background-color:coral;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(9) {
+    background-color:teal;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(10) {
+    background-color:thistle;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(11) {
+    background-color:violet;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(12) {
+    background-color:purple;
+    border: none;
+    color:black;
+}
+
+.examples button:nth-of-type(13) {
+    background-color:silver;
+    border: none;
+    color:black;
+}
+
+
+@media (min-width: 768px) {
+  
+   
+.start_nd_stop_buttons button {
+   
+    font-size: 1.5rem;
+ 
+
+}
+}
